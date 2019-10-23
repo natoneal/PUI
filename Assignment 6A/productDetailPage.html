@@ -36,35 +36,42 @@
                     <img class="flex-container-3-image" src="./images/SVG/vanilla.svg"  alt="original"height="200px" width="200px">
                 </a>
                 <div>
-                    <h2>Flavor: Original </h2>
+                        <div class="flex-container-3">
+                            <section class="bun-type">
+                                  <label for="bun">Flavor:</label>
+                                  <select name="bun" id="bun">
+                                        <option value="Original">Original</option>
+                                        <option value="Gluten Free Original">Gluten Free Original</option>
+                                        <option value="Blackberry">Blackberry</option>
+                                        <option value="Caramel Pecan">Caramel Pecan</option>
+                                        <option value="Pumpkin Spice">Pumpkin Spice</option>
+                                        <option value="Walnut">Walnut</option>
+                                  </select>
 
                         <div class="flex-container-3">
-                        <section class="edit-cart">
-                                  <input list="sauces" id="flavor" name="flavor">
-                                  <datalist id="sauces">
-                                        <option value="Original">Original</option>
-                                        <option value="Gluten Free Original"></option>
-                                        <option value="Blackberry"></option>
-                                        <option value="Caramel Pecan"></option>
-                                        <option value="Pumpkin Spice"></option>
-                                        <option value="Walnut"></option>
-                                  </datalist>
-                        </section>
+
                     </div>
 
-                    <h2>Topping: Select </h2>
                         <div class="flex-container-3">
-                            <a class="button4 ">Vanilla</a>
-                            <a class="button4 ">None</a>
-                            <a class="button4 ">Chocolate</a>
-                            <a class="button4 ">Chocolate</a>
+                            <section class="bun-type">
+                                  <label for="bun">Toppings:</label>
+                                  <select name="bun" id="bun">
+                                    <option value="sesame">None</option>
+                                    <option value="potatoe">Double-Chocolate</option>
+                                    <option value="pretzel">Vanilla-Milk</option>
+                                    <option value="pretzel">Sugar-Milk</option>
+                            </select>
                         </div>
-                    <h2>Amount: Select</h2>
+
                         <div class="flex-container-3">
-                            <a class="button4 ">1</a>
-                            <a class="button4 ">3</a>
-                            <a class="button4 ">6</a>
-                            <a class="button4 ">12</a>
+                            <section class="bun-type">
+                                  <label for="bun">Amount in box:</label>
+                                  <select name="bun" id="bun">
+                                    <option value="1">1</option>
+                                    <option value="3">3</option>
+                                    <option value="6">6</option>
+                                    <option value="12">12</option>
+                            </select>
                         </div>
                     <a href="./cart.html" class="button3">Add to Cart</a>
                 </div>
